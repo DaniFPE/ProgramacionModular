@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>72</x>
+      <y>72</y>
+      <w>216</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>Perro
+--
+- nombre: String
+# dueño: Persona
++ raza: String
++ edad: int
+- sexo: char
+--
++ setNombre(nombre: String): int
++ getNombre(): String
+# correr(metros: int): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
